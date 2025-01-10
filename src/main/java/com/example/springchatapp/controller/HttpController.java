@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HttpController {
     @GetMapping("/")
     public String serveHomePage(){
-        return "index";
+        return "redirect:http://localhost:8080";
     }
 }
