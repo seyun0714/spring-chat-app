@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springchatapp.SpringChatAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-10T06:52:37" hostname="DESKTOP-SUR6OM3" time="1.105">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.springchatapp.SpringChatAppApplicationTests" time="1.105"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+15:52:34.025 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.springchatapp.SpringChatAppApplicationTests]: SpringChatAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:52:34.230 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.springchatapp.SpringChatAppApplication for test class com.example.springchatapp.SpringChatAppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-01-10T15:52:34.823+09:00  INFO 9128 --- [spring-chat-app] [    Test worker] c.e.s.SpringChatAppApplicationTests      : Starting SpringChatAppApplicationTests using Java 17.0.7 with PID 9128 (started by seun0 in D:\intelij\spring-chat-app)
+2025-01-10T15:52:34.826+09:00  INFO 9128 --- [spring-chat-app] [    Test worker] c.e.s.SpringChatAppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-01-10T15:52:37.483+09:00  INFO 9128 --- [spring-chat-app] [    Test worker] c.e.s.SpringChatAppApplicationTests      : Started SpringChatAppApplicationTests in 3.049 seconds (process running for 4.961)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

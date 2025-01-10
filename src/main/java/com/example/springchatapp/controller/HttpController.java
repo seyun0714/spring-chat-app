@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HttpController {
-    @GetMapping("/")
+    /*@GetMapping("/")
     public String serveHomePage(){
         return "redirect:http://localhost:8080";
-    }
+    }*/
 }
